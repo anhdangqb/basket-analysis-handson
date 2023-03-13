@@ -1,0 +1,27 @@
+digraph {
+	graph [beautify=true margin=0.5]
+	node [fixedsize=true fontsize=5 shape=circle style=filled]
+	edge [color=lightgray]
+	a [label="plasters in tin woodland animals" width=0.7875]
+	b [label="woodland charlotte bag" width=0.725]
+	c [label="plasters in tin circus parade" width=0.6625]
+	d [label="plasters in tin spaceboy" width=0.6125]
+	e [label="jumbo bag woodland animals" width=0.575]
+	f [label="red toadstool led night light" width=0.55]
+	g [label="jumbo bag red retrospot" width=0.45]
+	h [label="plasters in tin strongman" width=0.4]
+	i [label="red retrospot cup" width=0.4]
+	j [label="red retrospot charlotte bag" width=0.4]
+	k [label="set/6 red spotty paper plates" width=0.325]
+	l [label="set/6 red spotty paper cups" width=0.3]
+	m [label="blue polkadot cup" width=0.275]
+	b -> e
+	g -> e
+	j -> b
+	f -> b
+	l -> k
+	h -> a
+	d -> a
+	m -> i
+	c -> a
+}
